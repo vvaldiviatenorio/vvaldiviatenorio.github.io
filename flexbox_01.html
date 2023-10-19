@@ -1,0 +1,230 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>lapasta</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Inicio</a>
+          <a href="#secc2">Articulo 1</a>
+          <a href="#secc3">Articulo 2</a>
+          <a href="#secc4">Contacto</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El fin del dinero, una pequeña introducción</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El mundo está experimentando una transformación silenciosa pero profunda en la forma en que manejamos nuestro dinero. El efectivo, que durante generaciones ha sido la base de nuestras transacciones cotidianas, está desvaneciéndose gradualmente de nuestras vidas. En su lugar, las tarjetas, las aplicaciones móviles y las criptomonedas se están convirtiendo en las nuevas normas para realizar pagos y gestionar nuestras finanzas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p> ¿Qué impulsa esta tendencia? ¿Cuáles son las implicaciones para la economía y la sociedad? En este blog, exploraremos la fascinante y controvertida conversación sobre la desaparición del dinero en efectivo, examinando las razones detrás de este cambio, las innovaciones tecnológicas que lo impulsan y los desafíos y oportunidades que plantea para individuos, empresas y gobiernos. Únete a nosotros en este viaje a través de la transformación del dinero tal como lo conocemos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p></p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p></p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p></p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p></p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Los riesgos de un mundo sin dinero en efectivo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Texto: Marta Doblas [Com 16 Fil 15]. Instituto Empresa y Humanismo
+Guido Hülsmann [Berlín, 1966] es un economista liberal perteneciente a la Escuela Austriaca de Economía. Catedrático de la Universidad de Angers (Francia) y miembro sénior del Instituto Ludwig von Mises, está considerado uno de los pocos especialistas en la compleja interrelación entre la economía y la ética del libre mercado.</p>
+
+<p>Este autor argumenta que existe la posibilidad de que el dinero en efectivo desaparezca y que esta tendencia se debe a factores tecnológicos y a la conveniencia para los gobiernos de rastrear todas las transacciones.</p>
+ 
+<p>Control gubernamental: Se destaca que los gobiernos ven con interés la eliminación del dinero en efectivo ya que les permitiría un mayor control sobre los flujos de capital y conocer quién recibe ingresos y quién realiza pagos.</p>
+ 
+<p>Producción de dinero: Se menciona que la producción de dinero está en manos de los bancos centrales y que esta práctica tiene implicaciones en la inflación y el crecimiento económico.</p>
+ 
+<p>Relación entre gobiernos y bancos: Se subraya la estrecha relación entre los gobiernos y los bancos, donde los bancos dependen del respaldo político y los gobiernos se benefician de la producción de dinero.
+ 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Acto de resistencia: El autor sugiere que el uso del dinero en efectivo puede considerarse un acto de resistencia contra el control gubernamental y la centralización de la información financiera.
+ 
+Sistema monetario alternativo: Se menciona la posibilidad de utilizar monedas virtuales como Bitcoin como una forma de escapar al control estatal sobre las transacciones.
+ 
+Necesidad de cambio en el sistema monetario: El autor argumenta que es necesario cambiar el sistema monetario actual y permitir más competencia en el mercado monetario.
+ 
+Énfasis en la responsabilidad: Se destaca la importancia de la responsabilidad en un sistema económico basado en la libertad y el derecho a la propiedad privada.
+ 
+Ética y conocimiento económico: Se menciona que la ética económica debe basarse en el conocimiento profundo de la economía y que los juicios éticos deben fundamentarse en una comprensión completa de la situación.
+ 
+Claves para sobrevivir en el entorno económico: Se resumen tres consejos clave para los ciudadanos en el entorno económico descrito: 
+Ahorrar
+ no depender de los bancos centrales para enriquecerse 
+ser conscientes de la naturaleza destructiva de un sistema basado en los bancos centrales y la monetarización a largo plazo.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>México y el fin del efectivo como medio de pago</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El uso del efectivo como medio de pago está disminuyendo en todo el mundo, y este artículo explora las razones detrás de esta tendencia. Se destacan varios factores que contribuyen a la reducción del efectivo:</p>
+ 
+<p>Medidas gubernamentales: Muchos gobiernos están implementando restricciones al uso del efectivo para combatir el blanqueo de capitales, el fraude fiscal y la economía informal. Ejemplos incluyen límites en la cantidad de efectivo que se puede utilizar en transacciones en países como Francia, Italia y España.</p>
+ 
+<p>Interés empresarial: Las empresas están interesadas en reducir el uso del efectivo debido a los costos asociados y los riesgos de gestión. La gestión de efectivo puede ser costosa y riesgosa para las empresas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Auge del comercio electrónico: El comercio electrónico ha impulsado el uso de tarjetas de crédito, transferencias y otras formas de pago digitales, disminuyendo la dependencia del efectivo.</p>
+ 
+<p>Avances en tecnología de pagos: La aparición de nuevos métodos de pago electrónicos con altos niveles de seguridad, como los pagos móviles, está acelerando la transición lejos del efectivo.</p>
+ 
+<p>A pesar de estas tendencias globales, México se encuentra rezagado en la eliminación del efectivo debido a factores como la desconfianza en las instituciones bancarias, la falta de cuentas bancarias, una economía informal significativa y la baja educación financiera. La economía informal representa una parte importante de la economía mexicana, y muchos trabajadores en esta sector prefieren el efectivo. Para avanzar en la eliminación del efectivo, las entidades bancarias deben ofrecer productos y servicios adecuados a las necesidades de esta población, brindando seguridad en las transacciones. El Estado también puede incentivar el uso de transferencias bancarias y tarjetas mediante políticas monetarias y campañas de concientización.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1></h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="http://gmail.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Contactanos</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
